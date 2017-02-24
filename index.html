@@ -1,0 +1,116 @@
+
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Olivier Pic - TP1</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="TP1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link href="style.css" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+
+  </head>
+  <body>
+  
+
+<div class="parallax">
+
+    <div class="parallax__group">
+    <div class="scroll-fill"></div>
+      <div class='heart animated'></div> 
+      <div class="parallax__layer parallax__layer--roches">
+        <div class="rock-cover">
+          <div class="content">
+            <p>TP1 de Veille Technologique</p>
+            <p>Il y a des méchants démons sous les montagnes wow j'ai peur</p>
+            <svg class="path3" width="200" height="250">
+              <path d='M0 100 L200 100 Z' fill="none" stroke="red" stroke width="5"/>
+            </svg>
+            <svg class="path2" width="200" height="250" viewbox="-3 6 40 50">
+              <path d='M16 44 L20 26 L32 16 L20 18 L16 6 L12 18 L0 16 L12 26 Z' fill="none" stroke="red" stroke width="2"/>
+            </svg>
+            <svg class="path3" width="200" height="250">
+              <path d='M0 100 L200 100 Z' fill="none" stroke="red" stroke width="5"/>
+            </svg>
+            <div id='penta'>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px"
+                  height="508px" viewBox="0 0 192 195" enable-background="new 0 0 192 195" xml:space="preserve">
+                  <g id="Layer_2">
+                    <circle fill="none" stroke="red" stroke-width="6" stroke-miterlimit="10" cx="96" cy="98" r="92.75"/>
+                    <circle fill="none" stroke="red" stroke-width="6" stroke-miterlimit="10" cx="96" cy="98" r="70"/>
+                  </g>
+                  <g id="Layer_3">
+                    <polygon fill="none" stroke="red" stroke-width="6" stroke-miterlimit="10" points="135.91,40.489 28.592,116.93 
+                      163.408,116.93 56.091,40.489 96,168   "/>
+                  </g>
+                </svg>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax__layer parallax__layer--backMontagne_3"></div>
+      <div class="parallax__layer parallax__layer--backMontagne_2"></div>
+      <div class="parallax__layer parallax__layer--backMontagne_1"></div>
+
+      <div class="parallax__layer parallax__layer--bg4"></div>
+      <div class="parallax__layer parallax__layer--bg3"></div>
+      <div class="parallax__layer parallax__layer--bg2"></div>
+      <div class="parallax__layer parallax__layer--bg"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="base"></div>
+  </div>
+
+<script type="text/javascript">
+var heart = document.getElementsByClassName('heart')[1],
+    pfx = ["webkit", "moz", "MS", "o", ""],
+    hovered = false;
+
+function AnimationListener() {
+    if(hovered)
+    { 
+      heart.classList.remove('animated'); 
+      heart.style.webkitTransform = 'scale(2)';
+      heart.style.MozTransform = 'scale(2)';
+      heart.style.msTransform = 'scale(2)';
+      heart.style.OTransform = 'scale(2)';
+      heart.style.transform = 'scale(2)';
+    }
+}
+
+function TransitionListener() {
+  if(!hovered)
+  {
+    heart.classList.add('animated');
+  }
+}
+
+function PrefixedEvent(element, type, callback) {
+    for (var p = 0; p < pfx.length; p++) {
+        if (!pfx[p]) type = type.toLowerCase();
+        element.addEventListener(pfx[p]+type, callback, false);
+    }
+}
+
+PrefixedEvent(heart, "AnimationIteration", AnimationListener);
+
+heart.onmouseover = function() {
+  hovered = true;
+}
+heart.onmouseout = function() {
+  setTimeout(function() { hovered = false; }, 500);
+  PrefixedEvent(heart, "TransitionEnd", TransitionListener);
+  heart.style.webkitTransform = 'scale(1)';
+  heart.style.MozTransform = 'scale(1)';
+  heart.style.msTransform = 'scale(1)';
+  heart.style.OTransform = 'scale(1)';
+  heart.style.transform = 'scale(1)';  
+}
+</script>
+
+  </body>
+</html>

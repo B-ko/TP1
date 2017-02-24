@@ -1,0 +1,29 @@
+<svg 	id="monSVG" 
+		width="1000" 
+		height="500"
+		viewBox="-50 -50 1000 500"
+		preserveAspectRatio="xMidYMid slice"
+		>
+ <!--  Le path d'un triangle -->
+  <path d=" M 300 0
+  			L 215 150 
+  			L 387 150 
+  			Z"/>
+  	<path d="M 375 100 
+  			 L 450 50
+  			 Z" />
+  	<path d="M 375 100 
+  			 L 525 100
+  			 "/>
+  	<path d="M 375 100 
+  			 L 600 60
+  			 "/>
+  	 <path d="M 300, 100
+       		  m -75, 0
+        	  a 75,75 0 1,0 150,0
+        	  a 75,75 0 1,0 -150,0" />
+  	 <path d="M 325, 100
+       		  m -75, 0
+        	  a 50,50 0 1,0 100,0
+        	  a 50,50 0 1,0 -100,0" />
+</svg>
