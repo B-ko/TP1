@@ -1,0 +1,126 @@
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1
+$ git init
+Initialized empty Git repository in C:/Users/e1348790/Desktop/tp1-20170224T00215
+6Z-001/tp1/.git/
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git add .
+warning: LF will be replaced by CRLF in style.css.
+The file will have its original line endings in your working directory.
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git commit -m "tp1"
+[master (root-commit) b368037] tp1
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 12 files changed, 1634 insertions(+)
+ create mode 100644 img/etoile.gif
+ create mode 100644 img/etoile2.gif
+ create mode 100644 index.html
+ create mode 100644 reset.css
+ create mode 100644 style.css
+ create mode 100644 style.less
+ create mode 100644 svg/animJs.svg
+ create mode 100644 svg/devantdevant.svg
+ create mode 100644 svg/pentagram.svg
+ create mode 100644 svg/superderriere.svg
+ create mode 100644 svg/supermoinderriere.svg
+ create mode 100644 svg/unpeumoinderriere.svg
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git add .
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git commit -m "retirer web kit"
+On branch master
+nothing to commit, working tree clean
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git add .
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git commit -m "encore des webkits"
+On branch master
+nothing to commit, working tree clean
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git add .
+warning: LF will be replaced by CRLF in style.css.
+The file will have its original line endings in your working directory.
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git commit -m "tout les webkit de css"
+[master f682439] tout les webkit de css
+ Committer: Pic <e1348790@cmaisonneuve.qc.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 61 insertions(+), 426 deletions(-)
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git branch
+* master
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git branch test
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git checkout test
+Switched to branch 'test'
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (test)
+$ git add .
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (test)
+$ git commit -m "test"
+On branch test
+nothing to commit, working tree clean
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (test)
+$ git checkout master
+Switched to branch 'master'
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$ git checkout master
+Already on 'master'
+
+e1348790@B1151-CVF1JB2 MINGW64 /c/Users/e1348790/Desktop/tp1-20170224T002156Z-00
+1/tp1 (master)
+$
